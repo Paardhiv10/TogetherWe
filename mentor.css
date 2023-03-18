@@ -71,4 +71,15 @@ body {
     height: 75%;
     width: 75%;;
   }
-  
+  .footc{
+    background-color: black!important;
+}
+.footer-links{
+    text-decoration: none;
+    margin-inline: 2%;
+    font-size: x-large;
+}
+.img-custom{
+    height: 4%;
+    width: 4%;
+}
