@@ -14,9 +14,11 @@
     font-family: 'Poppins', sans-serif;
     font-weight: lighter!important;
 }
-/* .custom-position{
-    margin-top: 10rem;
-} */
+.custom-position{
+    height: 300%;
+    width: 350%;
+}
+
 .footc{
     background-color: black!important;
 }
@@ -24,4 +26,16 @@
     text-decoration: none;
     margin-inline: 2%;
     font-size: x-large;
+}
+.img-custom{
+    height: 4%;
+    width: 4%;
+}
+#offerings{
+    background: rgb(238,59,86);
+    background: radial-gradient(circle, rgba(238,59,86,1) 0%, rgba(255,173,32,1) 0%, rgba(255,109,25,1) 95%);
+}
+.imgc{
+    height: 75%;
+    width: 85%;
 }
