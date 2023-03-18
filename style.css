@@ -1,0 +1,27 @@
+.navbar{
+    background-color: black!important;
+}
+#home{
+    background-color: black!important;
+}
+#modules{
+    background-color: rgb(246, 223, 190)!important;
+}
+.custom-font{
+    font-family: 'Poppins', sans-serif;
+}
+.custom-font1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter!important;
+}
+/* .custom-position{
+    margin-top: 10rem;
+} */
+.footc{
+    background-color: black!important;
+}
+.footer-links{
+    text-decoration: none;
+    margin-inline: 2%;
+    font-size: x-large;
+}
