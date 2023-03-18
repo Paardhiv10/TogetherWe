@@ -1,0 +1,10 @@
+.add-to-cart {
+    background-color: rgb(58, 122, 233);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
