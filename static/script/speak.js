@@ -28,11 +28,20 @@ const recognition = new webkitSpeechRecognition();
 
           if (command.includes('hello')) {
             speak('Hello! How can I help you?');
-          } else if (command.includes('weather')) {
-            speak('The weather is currently sunny.');
-          } else if (command.includes('goodbye')) {
+          } 
+          else if (command.includes('I want help')) {
+            speak('Please dail on 1228');
+          } 
+          else if (command.includes ("I want to join community")) {
+            speak('A person will be direct to you for assistance');
+        } else if (command.includes ("Size of self help groups")) {
+            speak('Size of 5 members');
+        } else if (command.includes ('goodbye')) {
+            speak('Thank you for you time');
+        } 
+        else if (command.includes('goodbye')) {
             speak('Goodbye!');
-            break;
-          }
+              break;
         }
+       }
       });
