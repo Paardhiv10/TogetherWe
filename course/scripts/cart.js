@@ -10,5 +10,5 @@ addToCartBtns.forEach(btn => {
 
 function enrollNow() {
     // Add your booking logic here, such as opening a booking form or redirecting to a booking page
-              window.location.href="dashboard.html";
+              window.location.href="./dashboard.html";
               }
