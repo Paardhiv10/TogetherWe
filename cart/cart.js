@@ -14,4 +14,6 @@ const cartItems = [
     `;
     cartItemsList.appendChild(li);
   });
+
+
   
