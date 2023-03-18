@@ -10,9 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="./static/css/chat.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>TogetherWe</title>
   </head>
   <body>
@@ -26,10 +23,10 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item">
-                        <a href="#services" class="nav-link text-light">Services</a>
+                        <a href="#offerings" class="nav-link text-light">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="mentors.html" class="nav-link text-light">Mentors</a>
+                        <a href="mentor.html" class="nav-link text-light">Mentors</a>
                     </li>
                     <li class="nav-item">
                         <a href="blog.html" class="nav-link text-light">Blogs</a>
@@ -38,7 +35,7 @@
                         <a href="contact.html" class="nav-link text-light">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <button onclick="" class="btn btn-danger btn-sm shadow-none mx-2">Login/Signup</button>
+                        <button onclick="window.location.href='login.html'" class="btn btn-danger btn-sm shadow-none mx-2">Login/Signup</button>
                     </li>
                 </ul>
             </div>
@@ -140,9 +137,6 @@
         </div>
     </section>
       
-    
-    
-      
 <!-- <section/Userprofile> -->
     <section id="userProfile">
         <div class="container mt-lg-5">
@@ -190,7 +184,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Modules</h5>
-                        <p class="card-text">This offering may refer to modularized courses or training programs that can be completed independently or combined to form a larger curriculum.</p>
+                        <p class="card-text">This offering refers to modularized courses or training programs that can be completed independently or combined to form a larger curriculum.</p>
                     </div>
                 </div>
             </div>
@@ -198,7 +192,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Mentors</h5>
-                        <p class="card-text">This offering may provide access to experienced professionals who can provide guidance, advice, and support to mentees.</p>
+                        <p class="card-text">This offering provides access to experienced professionals who can provide guidance, advice, and support to mentees.</p>
                     </div>
                 </div>
             </div>
@@ -206,7 +200,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">Upskilling</h5>
-                        <p class="card-text">This offering may involve providing training or resources to help individuals develop new skills or improve existing ones, with the goal of advancing their careers or pursuing new opportunities.</p>
+                        <p class="card-text">This offering involves providing training and resources to help individuals develop new skills or improve existing ones, with the goal of advancing their careers or pursuing new opportunities.</p>
                     </div>
                 </div>
             </div>
@@ -288,56 +282,8 @@
             </div>
             <p class="mt-4">&copy; Copyright 2023 TogetherWe</p>
         </div>
-        <div class="chat-bar-collapsible">
-            <button id="chat-button" type="button" class="collapsible">Chat with us!
-                <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
-            </button>
-    
-            <div class="content">
-                <div class="full-chat-block">
-                    <!-- Message Container -->
-                    <div class="outer-container">
-                        <div class="chat-container">
-                            <!-- Messages -->
-                            <div id="chatbox">
-                                <h5 id="chat-timestamp"></h5>
-                                <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
-                            </div>
-    
-                            <!-- User input box -->
-                            <div class="chat-bar-input-block">
-                                <div id="userInput">
-                                    <input id="textInput" class="input-box" type="text" name="msg"
-                                        placeholder="Tap 'Enter' to send a message">
-                                    <p></p>
-                                </div>
-    
-                                <div class="chat-bar-icons">
-                                    <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
-                                        onclick="heartButton()"></i>
-                                    <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
-                                        onclick="sendButton()"></i>
-                                </div>
-                            </div>
-    
-                            <div id="chat-bar-bottom">
-                                <p></p>
-                            </div>
-    
-                        </div>
-                    </div>
-    
-                </div>
-            </div>
-    
-        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./static/script/chat.js"></script>
-  <script src="./static/script/responses.js"></script>
-
 </html>
