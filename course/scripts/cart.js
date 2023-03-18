@@ -7,3 +7,8 @@ addToCartBtns.forEach(btn => {
     console.log(`Item ${itemId} added to cart`);
   });
 });
+
+function bookNow() {
+    // Add your booking logic here, such as opening a booking form or redirecting to a booking page
+              window.location.href="dashboard.html";
+              }
