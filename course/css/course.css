@@ -7,4 +7,7 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
+ button{
+    background-color:  rgb(58, 122, 233);
+    color: aliceblue;
+ } 
