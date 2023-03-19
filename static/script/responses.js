@@ -3,7 +3,7 @@ function getBotResponse(input) {
         return "Please dail on 1228";
     } else if (input == "I want to join community") {
         return "A person will be direct to you for assistance ";
-    } else if (input == "Size of self help groups") {
+    } else if (input == "size of self help groups") {
         return "Size of 5 members";
     } else if (input == "goodbye") {
         return "Thank you for you time";

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">     
+
+   <link rel="stylesheet" href="/stylesheets/app.css">
+   <title>TogetherWe</title>
+</head>
+<body>
+<div class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+            <div class="card shadow">
+                <img src="https://www.blurtitout.org/wp-content/uploads/2019/08/Self-Care-Isn%C3%94%C3%87%C3%96t-A-Replacement-For-Community-Care_REC_TEXT.jpg"
+                    alt="" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Register</h5>
+                    <form action="/register" method="POST" class="validated-form" novalidate>
+                        <div class="mb-3">
+                            <label class="form-label" for="username">Username</label>
+                            <input class="form-control" type="text" id="username" name="username" required autofocus>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="phoneNumber">Phone Number</label>
+                            <input class="form-control" type="text" id="phoneNumber" name="phoneNumber" required autofocus>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-control" type="email" id="email" name="email" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="preference">Gender</label>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-secondary mr-2 active">
+                                  <input type="radio" name="gender" value="male" autocomplete="off" checked> Male
+                                </label>
+                                <label class="btn btn-secondary mr-2 active">
+                                  <input type="radio" name="gender" value="female" autocomplete="off"> Female
+                                </label>
+                                <label class="btn btn-secondary mr-2 active">
+                                    <input type="radio" name="gender" value="other" autocomplete="off"> Prefer Not To Say
+                                  </label>
+                              </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-group">
+                                <label for="interests">Interests:</label>
+                                <select class="form-control" id="interests" name="interests">
+                                  <option value="">Select an interest</option>
+                                  <option value="education">Education</option>
+                                  <option value="finance">Finance</option>
+                                  <option value="employment">Employment</option>
+                                  <option value="health">Health</option>
+                                </select>
+                              </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="preference">Gender Preference</label>
+                            <br>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-secondary mr-2 active">
+                                  <input type="radio" name="gender_2" value="male" autocomplete="off" checked> Male
+                                </label>
+                                <label class="btn btn-secondary mr-2 active">
+                                  <input type="radio" name="gender_2" value="female" autocomplete="off"> Female
+                                </label>
+    
+                              </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="location">Location</label>
+                                <input class="form-control" type="text" id="location" name="location" required autofocus>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="password">Password</label>
+                            <input class="form-control" type="password" id="password" name="password" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <button class="btn btn-success btn-block">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
